@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Aqua</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="assets/images/logo.png" alt="">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Сеансы</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Обо мне</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-in">
+                <div class="main-in-first">
+                    <p>Укрепление здоровья</p>
+                </div>
+                <h1>Акватерапия <br>
+                    RitmStyle</h1>
+            </div>
+        </div>
+    </main>
+    
+    
+    <tabsi>
+        <div class="tabsi">
+            <div class="tabs">
+                <h3 class="active">Новости</h3>
+                <h3>Блог</h3>
+                <h3>Новый формат</h3>
+            </div>
+            <div class="tab-content">
+                <div class="active">
+                    <p>Лучшие новости!</p>
+                </div>
+                <div>
+                    <p>Свежие блоги каждый день</p>
+                </div>
+                <div>
+                    <p>Новый формат акватерапий</p>
+                </div>
+            </div>
+        </div>    
+    </tabsi>
+
+    <section class="seans">
+        <div class="seans-title">
+            <p>Сеансы RitmStyle</p>
+        </div> 
+    </section>
+    <section class="gallery">
+        <div class="buttons">
+            <button type="button">
+                Все
+            </button>
+            <button type="button" data-btn= "1">
+                Новые
+            </button>
+            <button type="button" data-btn= "2">
+                Популярные
+            </button>
+        </div>
+        <div class="image">
+            <img src="assets/images/ritmstyle1.png" alt="img" data-img="2">
+            <img src="assets/images/ritmstyle2.png" alt="img" data-img="1">
+            <img src="assets/images/ritmstyle3.png" alt="img" data-img="2">
+            <img src="assets/images/ritmstyle4.png" alt="img" data-img="2">
+            <img src="assets/images/ritmstyle5.png" alt="img" data-img="1">
+            <img src="assets/images/ritmstyle6.png" alt="img" data-img="1">
+        </div>
+    </section>
+
+    <section class="r-t">
+        <div class="reviwe-text"><p>Отзывы</p></div>
+    </section>
+    <section class="reviwe">
+        <div class="wrapper">
+            <div class="testimonial-container" id="testimonial-container"></div>
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </section>
+
+    <section class="a-rs">
+        <div class="about-rs">
+            <p>Об RitmStyle</p>
+        </div>
+    </section>
+    <div class="btn-rs">
+        <button onclick="togglePopup()">Показать</button>
+    </div>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>RitmStyle</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iusto exercitationem porro quaerat, suscipit modi reprehenderit sequi dolorem beatae doloremque ullam architecto necessitatibus consectetur optio molestiae dolores aperiam praesentium voluptas. Quos, corporis sint provident, ipsam, velit vitae sequi asperiores iste nisi veritatis nihil sed unde.</p>
+            <img src="assets/images/Rectangle 23.png" alt="">
+        </div>
+    </div>
+    <section class="acc-title">
+        <div class="acc-text"><p>Стоимость Сеансов</p></div>
+    </section>
+    <section class="acc">
+        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">RitmStyle с погружением</div>
+                <div class="content-t">
+                    <p>1000р.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">Абонемент на RitmStyle</div>
+                <div class="content-t">
+                    <p>5500р.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">RitmStyle для пар</div>
+                <div class="content-t">
+                    <p>6000р.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">RitmStyle для беременных</div>
+                <div class="content-t">
+                    <p>13500р.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">RitmStyle +  фотосессия</div>
+                <div class="content-t">
+                    <p>11500р.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">Творческий RitmStyle</div>
+                <div class="content-t">
+                    <p>8000р.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="acc-img"><img src="assets/images/thanks.png" alt=""></div>
+    
+    
+    
+
+    <script src="code-tabs.js"></script>
+    
+</body>
+</html>
